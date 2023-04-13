@@ -1,0 +1,29 @@
+.header {
+    padding: 70px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+
+}
+
+.cityInfo {
+   
+    border: 2px black;
+    border: solid;
+
+}
+
+.sideBar {
+   
+    border: 2px black;
+    border: solid;
+
+}
+
+.fiveDay {
+   
+    border: 2px black;
+    border: solid;
+
+}
