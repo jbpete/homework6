@@ -5,33 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <title>Weather Dashboard</title>
 </head>
 
 
 <body>
+    <div class="container1">
     <div class="header">
     <h1> Weather Dashboard </h1>
     </div>
 
-    <div class = "cityInfo">
+    <!--<div class = "cityInfo">
         <p id="weather">City Info Placeholder</p>
-        
+    </div>-->
 
-    </div>
 
+    <div class="container2">
     <div class = "sideBar">
         <p>Side Bar Placeholder</p>
-        <input id="lat">
-        <input id="lon">
-        
+        <input id="city">
+        <button id="search_btn">Search</button>
+        <br><br><p>Last Searched City:</p><br>
+        <label id="searchHistory"></label>        
     </div>
+    
 
-    <div class="fiveDay">
-        <p>Five Day Forecast Placeholder</p>
-        
+
+    
+ 
+    <div class="content">
+        <p>City Info Placeholder</p>
+    <section class ="cityInfo">
+        <label id="cityIcon"></label>
+        <label id="cityTemp"></label>
+        <label id="cityWindspeed"></label>
+        <label id="cityHumidity"></label>
+    </section>
+    <p id="fiveDayParagraph">Five Day Forecast Placeholder</p>
+<section class="forecastCards">
+    <section class="cards">
+        <label id="date1"></label>
+        <label id="icon1"></label>
+        <label id="forecastIcon1"></label>
+        <label id="forecastTemp1"></label>
+        <label id="forecastWindspeed1"></label>
+        <label id="forecastHumidity1"></label>
+    </section>
+    <section class="cards">
+        <label id="forecastIcon2"></label>
+        <label id="forecastTemp2"></label>
+        <label id="forecastWindspeed2"></label>
+        <label id="forecastHumidity2"></label>
+    </section>
+    <section class="cards">
+        <label id="forecastIcon3"></label>
+        <label id="forecastTemp3"></label>
+        <label id="forecastWindspeed3"></label>
+        <label id="forecastHumidity3"></label>
+    </section>
+    <section class="cards">
+        <label id="forecastIcon4"></label>
+        <label id="forecastTemp4"></label>
+        <label id="forecastWindspeed4"></label>
+        <label id="forecastHumidity4"></label>
+    </section>
+    <section class="cards">
+        <label id="forecastIcon5"></label>
+        <label id="forecastTemp5"></label>
+        <label id="forecastWindspeed5"></label>
+        <label id="forecastHumidity5"></label>
+    </section>
+</section>
     </div>
+</div>
 
     <script src="./script.js"></script>
+    
 </body>
 </html>
